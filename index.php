@@ -174,7 +174,11 @@
                     <video id="youtube1" class="hidden-phone" style="display:none;" width="100%" height="100%" loop>
                         
                         <source src="http://www.youtube.com/watch?v=a5iDPFbIRdo" type="video/youtube">
-                        
+                        <track kind="subtitles" src="sub/agrosuper-es.srt" srclang="es" />
+
+                        <track kind="subtitles" src="sub/agrosuper-en.srt" srclang="en" />
+                        <track kind="subtitles" src="sub/agrosuper-kr.srt" srclang="kr" />
+                        <track kind="subtitles" src="sub/agrosuper-jp.srt" srclang="jp" />
                        
                     </video>
 
@@ -314,6 +318,7 @@
         <script src="js/vendor/jquery.keyboardScroll.js"></script>
         <script src="build/mediaelement-and-player.js"></script>
         <script src="js/vendor/jquery.sidr.js"></script>
+        <script src="js/vendor/jquery.easing.min.js"></script>
         
 		<!--google analytics-->
 

@@ -55,7 +55,10 @@ $(document).ready(function() {
 	});*/
 
 	$('#open_map').click(function(){
-		$('.cont_map').toggle();
+		$('.cont_map').slideToggle('fast', function(){
+			var $anima = $('.cont_map');
+			$(this).is(':visible') ? $anima.animate({right:'0'},{duration:500, easing:'easeOutCubic'}) : $anima.animate({right:'-400px'},{duration:500, easing:'easeInElastic'});
+		});
 	});
 });
 /*loading*/

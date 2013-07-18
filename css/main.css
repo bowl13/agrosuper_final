@@ -3,6 +3,7 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	margin-top: 75px;
+	overflow-x:hidden;
 }
 @media(max-width:768px){
 	body{
@@ -173,7 +174,7 @@ section .view-cinema{
 	max-width: 640px;
 }
 /*MAP AND DISTRIBUIDORES*/
-section.cont_map{
+/*section.cont_map{
 	min-height:500px;
 	z-index: 999999;
 	background-color: #fff;
@@ -183,11 +184,13 @@ section.cont_map{
 }
 .cont_map .map{
 	margin-top:40px;
-}
+}*/
 section.cont_map{
 	width:400px;
+	height: 500px;
 	position: absolute;
-	top: 5%;
-	right: 0;
+	top: 10%;
+	right: -400px;
 	background-color: #fff;
+	z-index: 9999999;
 }
