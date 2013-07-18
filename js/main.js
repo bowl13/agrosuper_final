@@ -47,13 +47,16 @@ $(document).ready(function() {
 	$('.close').sidr('close', 'sidr-name');
 
 //OPENMAP
-	$('#open_map').click(function(){
+	/*$('#open_map').click(function(){
 		$('.cont_map').toggle('fast', function(){
 			var $anima = $('.cont_map');
 			$(this).is(':visible') ? $anima.animate({bottom:'0'},500) : $anima.animate({bottom:'-500px'},500);
 		});
-	});
+	});*/
 
+	$('#open_map').click(function(){
+		$('.cont_map').toggle();
+	});
 });
 /*loading*/
 $(window).load(function(){

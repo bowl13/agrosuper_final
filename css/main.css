@@ -32,6 +32,7 @@ body{
     height: 100%;
     margin: 0 auto -30px;
 }
+/*FOOTER STY*/
 #push, .footer-fix{
 	height: 30px;
 }
@@ -59,6 +60,7 @@ body{
 .container-fluid{
 	padding:0 !important;
 }
+/*MENU AND HEADER*/
 .head_cont{
 	background-color: #fff;
 	height:74px;
@@ -118,32 +120,13 @@ body{
 .head_cont_resp a:hover{
 	color:#3598dc;
 }
-/*cont sections*/
+/*SECTION STY*/
 section{
 	height:auto;
 	display: block;
 	margin-top:-30px;
 }
-section .cont-over{
-	position: relative;
-	z-index: 999999;
-	color: #fff;
-	text-transform: uppercase;
-	margin-top: 19%;
-}
-section .cont-over h2{
-	font-weight: 300;
-	font-size: 38px;
-}
-section .cont-over h1{
-	font-size: 58px;
-	margin-bottom: 180px;
-}
-section .cont-over p{
-	font-size: 24px;
-	width:528px;
-	margin: 0 auto;
-}
+/*CINEMAGRAPHS*/
 section .carousel{
 	margin-bottom:0 !important;
 }
@@ -189,6 +172,7 @@ section .view-cinema{
 	height:auto;
 	max-width: 640px;
 }
+/*MAP AND DISTRIBUIDORES*/
 section.cont_map{
 	min-height:500px;
 	z-index: 999999;
@@ -199,4 +183,11 @@ section.cont_map{
 }
 .cont_map .map{
 	margin-top:40px;
+}
+section.cont_map{
+	width:400px;
+	position: absolute;
+	top: 5%;
+	right: 0;
+	background-color: #fff;
 }

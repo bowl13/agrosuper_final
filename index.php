@@ -174,11 +174,7 @@
                     <video id="youtube1" class="hidden-phone" style="display:none;" width="100%" height="100%" loop>
                         
                         <source src="http://www.youtube.com/watch?v=a5iDPFbIRdo" type="video/youtube">
-                        <track kind="subtitles" src="sub/agrosuper-es.srt" srclang="es"/>
-
-                        <track kind="subtitles" src="sub/agrosuper-en.srt" srclang="en"/>
-                        <track kind="subtitles" src="sub/agrosuper-jp.srt" srclang="jp"/>
-                        <track kind="subtitles" src="sub/agrosuper-kr.srt" srclang="kr"/>
+                        
                        
                     </video>
 
@@ -263,7 +259,11 @@
 
                 <section id="donde" class="sectionnav row-fluid cont_map">
                     
-                    <div class="map">hola</div>
+                    <div class="map">
+                        
+                        aqui va el mapa
+
+                    </div>
 
                 </section>
 
