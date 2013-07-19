@@ -47,6 +47,20 @@ $(document).ready(function() {
 	$('.close').sidr('close', 'sidr-name');
 
 
+//MENU SITE
+	$('#qui_href').click(function(){
+		$.scrollTo('#quienes',1500,{easing:'easeOutQuad'});
+	});
+
+	$('#ded_href').click(function(){
+		$.scrollTo('#dedonde',1500,{easing:'easeOutQuad'});
+	});
+
+	$('#don_href').click(function(){
+		$.scrollTo('#quienes',1500,{easing:'easeOutQuad'});
+	});
+
+
 //OPENMAP
 	/*$('#open_map').click(function(){
 		$('.cont_map').toggle('fast', function(){

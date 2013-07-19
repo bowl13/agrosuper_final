@@ -57,7 +57,7 @@
         -->
         </style>
     </head>
-    <body id="quienes">
+    <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -86,13 +86,13 @@
                         <div id="sidr">
                           
                           <ul>
-                                <li class="active"><a href="#quienes">quiénes somos</a></li>
-                                <li><a href="#dedonde">de dónde venimos</a></li>
-                                <li><a href="#donde">dónde encontrarnos</a></li>
+                                <li class="active"><a href="#quienes"><img src="img/icon_qui_href.gif" alt=""7>quiénes somos</a></li>
+                                <li><a href="#dedonde"><img src="img/icon_ded_href.gif" alt=""/>de dónde venimos</a></li>
+                                <li><a href="#donde"><img src="img/icon_don_href.gif" alt=""/>dónde encontrarnos</a></li>
 
                           </ul>
                           <div>
-                              <a class="close">cerrar</a>
+                              <a class="close"><img src="img/icon_cerrar.gif" alt=""/></a>
                           </div>
                         </div>
 
@@ -116,9 +116,9 @@
                         
                         <nav>
                             <ul class="unstyled nav nav-pills">
-                                <li><a href="#">quiénes somos</a></li>
-                                <li><a href="#">de dónde venimos</a></li>
-                                <li><a href="#">dónde encontrarnos</a></li>
+                                <li id="qui_href" class="active">quiénes somos</li>
+                                <li id="ded_href">de dónde venimos</li>
+                                <li id="don_href">dónde encontrarnos</li>
                             </ul>
                         </nav>
 
@@ -139,7 +139,7 @@
 
                 </header>
 
-                <section class="sectionnav row-fluid" style="background-color:#000;">
+                <section id="quienes" class="sectionnav row-fluid" style="background-color:#000;">
 
                     <div class="hidden-desktop hidden-tablet">
 
@@ -148,7 +148,7 @@
                         <div class="video_ext">
                             
                             <div class="cont_play">
-                                <a href="" target="_blank"><img src="img/play_resp.png" alt=""/></a>
+                                <a href="http://www.youtube.com/watch?v=a5iDPFbIRdo" target="_blank"><img src="img/play_resp.png" alt=""/></a>
                             </div>
 
                         </div>
@@ -246,7 +246,7 @@
 
                 </section>
 
-                <section id="donde" class="sectionnav row-fluid cont_map">
+                <section id="donde" class="sectionnav row-fluid cont_map hide">
                     
                     <div class="map">
                         
@@ -304,6 +304,7 @@
         <script src="build/mediaelement-and-player.js"></script>
         <script src="js/vendor/jquery.sidr.js"></script>
         <script src="js/vendor/jquery.easing.min.js"></script>
+        <script src="js/vendor/jquery.scrollTo-min.js"></script>
         
 		<!--google analytics-->
 

@@ -70,16 +70,19 @@ body{
 	width: 510px;
 	margin: 0 auto;
 }
-.head_cont nav a{
+.head_cont nav li{
 	color: #3598dc;
+	padding:5px;
+	margin-right: 5px;
+	cursor: pointer;
 }
-.head_cont nav a:hover{
+.head_cont nav li:hover{
 	background-color: #f37531 !important;
 	color: #fff;
 	border: 0 !important;
 	border-radius:0 !important;
 }
-.head_cont nav a:focus{
+.head_cont nav li:focus{
 	background-color: #f37531 !important;
 	color: #fff;
 	border: 0 !important;
@@ -117,6 +120,9 @@ body{
 }
 .head_cont_resp a:hover{
 	color:#3598dc;
+}
+.head_cont_resp a img{
+	margin-right:5px;
 }
 /*SECTION STY*/
 section{
