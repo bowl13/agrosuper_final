@@ -70,9 +70,9 @@ $(document).ready(function() {
 	});*/
 
 	$('.btn_open_map').click(function(){
-		$('.dash_map').toggle('slow', function(){
+		$('.dash_map').toggle(300, function(){
 			var $anima = $('.cont_leyenda');
-			$(this).is(':visible') ? $anima.animate({right:'0'},{duration:500, easing:'easeOutCubic'}) : $anima.animate({right:'-400px'},{duration:1500, easing:'easeInElastic'});
+			$(this).is(':visible') ? $anima.delay(1000).animate({right:'0'},{duration:500, easing:'easeOutCubic'}) : $anima.delay(1000).animate({right:'-400px'},{duration:1500, easing:'easeInElastic'});
 		});
 	});
 });
