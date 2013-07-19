@@ -42,9 +42,10 @@ $(document).ready(function() {
 
 //RESPONSIVE MENU
 	$('#simple-menu').sidr({
-		side: 'left'
+		side: 'right'
 	});
 	$('.close').sidr('close', 'sidr-name');
+
 
 //OPENMAP
 	/*$('#open_map').click(function(){

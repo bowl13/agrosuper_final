@@ -78,44 +78,26 @@
             <div class="container-fluid">
 
                 <header class="hidden-desktop hidden-tablet row-fluid head_cont_resp">
-                    
+                   
                     <div class="span2 text-center">
                         
-                        <img src="img/logo.gif" alt="">
-
-                    </div>
-
-                    <div class="span2 well-small">
-                          
-                        <div class="pull-left">
-                            
-                            <a id="simple-menu" class="pull-right" href="#sidr">menú <img style="padding-bottom:3px;" src="img/icon_menu.gif" alt=""></a>
+                        <a id="simple-menu" class="pull-right" href="#sidr"><img style="padding-right:8px;" src="img/icon_menu.gif" alt=""></a>
      
-                            <div id="sidr">
-                              
-                              <ul>
-                                    <li class="active"><a href="#quienes">quiénes somos</a></li>
-                                    <li><a href="#dedonde">de dónde venimos</a></li>
-                                    <li><a href="#donde">dónde encontrarnos</a></li>
+                        <div id="sidr">
+                          
+                          <ul>
+                                <li class="active"><a href="#quienes">quiénes somos</a></li>
+                                <li><a href="#dedonde">de dónde venimos</a></li>
+                                <li><a href="#donde">dónde encontrarnos</a></li>
 
-                              </ul>
-                              <div>
-                                  <a class="close">cerrar</a>
-                              </div>
-                            </div>
-
-                        </div>  
-                        
-                        <div class="pull-right">
-                            
-                            <div class="lang pull-right">spa</div>
-
-                            <div class="tw pull-right" style="margin-right:15px;border-right:2px solid #3598dc;padding-right:5px;"><img src="img/icon_tw.gif" alt=""></div>
-                            <div class="fb pull-right" style="margin-right:15px;"><img src="img/icon_fb.gif" alt=""></div>
-
+                          </ul>
+                          <div>
+                              <a class="close">cerrar</a>
+                          </div>
                         </div>
 
-                        <div class="clearfix"></div>
+                        <img src="img/logo.gif" alt="" style="position:absolute;margin:0 auto;left:0;right:0;z-index:999999;"/>
+
                     </div>
 
                 </header>
@@ -163,9 +145,11 @@
 
                         <div class="clearfix"></div>
 
-                        <div class="video_ext" style="height:auto;min-height:480px;max-width:768px;width:100%;">
+                        <div class="video_ext">
                             
-                            hola
+                            <div class="cont_play">
+                                <a href="" target="_blank"><img src="img/play_resp.png" alt=""/></a>
+                            </div>
 
                         </div>
 
@@ -198,15 +182,13 @@
 
                             <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
 
-                            <source src="img/parr.mp4" type="video/mp4">
-                            <source src="img/parr.webm" type="video/webm">
-                            <source src="img/parr.ogv" type="video/ogg">
+                                <source src="img/parr.mp4" type="video/mp4">
+                                <source src="img/parr.webm" type="video/webm">
+                                <source src="img/parr.ogv" type="video/ogg">
 
                             </video>
 
-                            <div class="hidden-desktop hidden-tablet view-cinema">
-
-                                <img src="img/cinema_japan_low.gif" alt="">
+                            <div class="hidden-desktop hidden-tablet view-cinema cin_01">
 
                             </div>
 
@@ -218,15 +200,13 @@
 
                             <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
 
-                            <source src="img/pai.mp4" type="video/mp4">
-                            <source src="img/pai.webm" type="video/webm">
-                            <source src="img/pai.ogv" type="video/ogg">
+                                <source src="img/pai.mp4" type="video/mp4">
+                                <source src="img/pai.webm" type="video/webm">
+                                <source src="img/pai.ogv" type="video/ogg">
 
                             </video>
 
-                            <div class="hidden-desktop hidden-tablet view-cinema">
-
-                                <img src="img/cinema_japan_low.gif" alt="">
+                            <div class="hidden-desktop hidden-tablet view-cinema cin_01">
 
                             </div>
 
@@ -237,25 +217,30 @@
 
                             <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
 
-                            <source src="img/parr.mp4" type="video/mp4">
-                            <source src="img/parr.webm" type="video/webm">
-                            <source src="img/parr.ogv" type="video/ogg">
+                                <source src="img/parr.mp4" type="video/mp4">
+                                <source src="img/parr.webm" type="video/webm">
+                                <source src="img/parr.ogv" type="video/ogg">
 
                             </video>
 
-                            <div class="hidden-desktop hidden-tablet view-cinema">
+                            <div class="hidden-desktop hidden-tablet view-cinema cin_01">
 
-                                <img src="img/cinema_japan_low.gif" alt="">
 
                             </div>
 
                         </div>
 
                       </div>
+                        <div class="cont_resp_arrow hidden-tablet hidden-desktop pull-right">
+                            
+                            <!-- Carousel nav -->
+                            <a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+                            <a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
 
+                        </div>
                        <!-- Carousel nav -->
-                        <a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
-                        <a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
+                        <a class="carousel-control left hidden-phone" href="#myCarousel" data-slide="prev"></a>
+                        <a class="carousel-control right hidden-phone" href="#myCarousel" data-slide="next"></a>
 
                     </div>
 
