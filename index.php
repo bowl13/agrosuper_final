@@ -246,12 +246,63 @@
 
                 </section>
 
-                <section id="donde" class="sectionnav row-fluid cont_map hide">
-                    
+                <section class="cont_map hide">
+                   
                     <div class="map">
                         
                         aqui va el mapa
 
+                    </div>
+
+                </section>
+
+                <section id="donde" class="sectionnav row-fluid cont_all_map">
+                    
+                    <div class="btn_open_map well-large"><img src="img/arrow_map.gif" alt=""/></div>
+
+                    <div class="dash_map hide">
+                        
+                        <div class="cont_leyenda well-small">
+                            
+                            <div class="paises_map">
+                                
+                                <h1>exportaciones</h1>
+                                <h2>agrosuper</h2>
+
+                                <ul class="unstyled pull-left">
+                                    <li class="pull-left">europa</li>
+                                    <li class="pull-left">brasil</li>
+                                    <li class="pull-left">méxico</li>
+                                    <li class="pull-left">sudamerica</li>
+                                    <li class="pull-left">usa</li>
+                                    <li class="pull-left">asia</li>
+                                    <li class="pull-left">áfrica</li>
+                                </ul>
+
+                            </div>
+                            
+                            <div class="marcas_map">
+                                
+                                <h1>nuestras</h1>
+                                <h2>marcas</h2>
+
+                                <ul class="unstyled">
+                                    <li><img src="" alt=""></li>
+                                    <li><img src="" alt=""></li>
+                                    <li><img src="" alt=""></li>
+                                    <li><img src="" alt=""></li>
+                                    <li><img src="" alt=""></li>
+                                    <li><img src="" alt=""></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="text-center mapa_mundi hidden-phone">
+                        <img src="img/mapa_mundi.gif" alt=""/>
                     </div>
 
                 </section>
@@ -270,12 +321,6 @@
                 <div class="like_fb pull-left" style="margin-left:10px;">
                                         
                     <div class="fb-like" data-href="http://www.bowl.cl" data-send="false" data-width="450" data-show-faces="false"></div>
-
-                </div>
-
-                <div id="open_map" class="pull-left" style="cursor:pointer;">
-                    
-                    abrir mapa
 
                 </div>
 

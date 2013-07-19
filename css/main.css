@@ -191,11 +191,65 @@ section .view-cinema{
 section.cont_map{
 	width:400px;
 	height: 500px;
-	position: absolute;
+	position: fixed;
 	top: 10%;
 	right: -400px;
 	background-color: #fff;
 	z-index: 9999999;
+}
+section.cont_all_map{
+	background-color: #eaedf1;
+	padding:100px 0;
+}
+section.cont_all_map .cont_leyenda{
+	max-width:420px;
+	height:600px;
+	background-color: #fff;
+	position: absolute;
+}
+section.cont_all_map .dash_map{
+	min-width:400px;
+	height: 600px;
+	position: absolute;
+	margin-top: 10%;
+	z-index: 9999999;
+	right: 0;
+}
+section.cont_all_map .btn_open_map{
+	max-width:48px;
+	max-height: 48px;
+	background-color: #f47531;
+	position: absolute;
+	right:0;
+	z-index: 99999999;
+}
+section.cont_all_map .cont_leyenda h1, section.cont_all_map .cont_leyenda h2{
+	font-size: 20px;
+	color: #359ed1;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 15px;
+}
+section.cont_all_map .cont_leyenda h2{
+	font-size: 33px;
+	font-weight: 600;
+}
+section.cont_all_map .cont_leyenda .paises_map ul{
+	color:#999;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 300;
+	min-width:280px;
+}
+section.cont_all_map .cont_leyenda .paises_map ul li{
+	margin: 5px 80px 0px 5px;
+	padding: 5px;
+	cursor:pointer;
+	width: 100px;
+}
+section.cont_all_map .cont_leyenda .paises_map ul li:hover{
+	background-color: #f37531;
+	color: #fff;
 }
 /*RESPONSIVE STY*/
 @media(max-width:700px){

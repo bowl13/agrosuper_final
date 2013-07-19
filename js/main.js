@@ -57,7 +57,7 @@ $(document).ready(function() {
 	});
 
 	$('#don_href').click(function(){
-		$.scrollTo('#quienes',1500,{easing:'easeOutQuad'});
+		$.scrollTo('#donde',1500,{easing:'easeOutQuad'});
 	});
 
 
@@ -69,10 +69,10 @@ $(document).ready(function() {
 		});
 	});*/
 
-	$('#open_map').click(function(){
-		$('.cont_map').slideToggle('fast', function(){
-			var $anima = $('.cont_map');
-			$(this).is(':visible') ? $anima.animate({right:'0'},{duration:500, easing:'easeOutCubic'}) : $anima.animate({right:'-400px'},{duration:500, easing:'easeInElastic'});
+	$('.btn_open_map').click(function(){
+		$('.dash_map').toggle('slow', function(){
+			var $anima = $('.cont_leyenda');
+			$(this).is(':visible') ? $anima.animate({right:'0'},{duration:500, easing:'easeOutCubic'}) : $anima.animate({right:'-400px'},{duration:1500, easing:'easeInElastic'});
 		});
 	});
 });
