@@ -48,16 +48,20 @@ $(document).ready(function() {
 
 
 //MENU SITE
-	$('#qui_href').click(function(){
+	$('#qui_href, #qui_href2').click(function(){
 		$.scrollTo('#quienes',1500,{easing:'easeOutQuad'});
 	});
 
-	$('#ded_href').click(function(){
+	$('#ded_href, #ded_href2').click(function(){
 		$.scrollTo('#dedonde',1500,{easing:'easeOutQuad'});
 	});
 
-	$('#don_href').click(function(){
+	$('#don_href, #don_href2').click(function(){
 		$.scrollTo('#donde',1500,{easing:'easeOutQuad'});
+	});
+
+	$('#don_href2').click(function(){
+		$.scrollTo('#donde2',1500,{easing:'easeOutQuad'});
 	});
 
 
@@ -79,14 +83,14 @@ $(document).ready(function() {
 
 	$('.btn_open_map').click(function(){
 		$('.cont_leyenda').animate({
-			right:'0'
+			right:'-440px'
 		});
 		$('.btn_open_map').css('display','none');
 		$('.btn_open_map2').css('display','block');
 	});
 	$('.btn_open_map2').click(function(){
 		$('.cont_leyenda').animate({
-			right:'-440px'
+			right:'0'
 		});
 		$('.btn_open_map2').css('display','none');
 		$('.btn_open_map').css('display','block');

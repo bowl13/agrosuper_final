@@ -86,9 +86,9 @@
                         <div id="sidr">
                           
                           <ul>
-                                <li class="active"><a href="#quienes"><img src="img/icon_qui_href.gif" alt=""7>quiénes somos</a></li>
-                                <li><a href="#dedonde"><img src="img/icon_ded_href.gif" alt=""/>de dónde venimos</a></li>
-                                <li><a href="#donde"><img src="img/icon_don_href.gif" alt=""/>dónde encontrarnos</a></li>
+                                <li class="active" id="qui_href2"><img src="img/icon_qui_href.gif" alt="" style="margin-right:5px;"/>quiénes somos</li>
+                                <li id="ded_href2"><img src="img/icon_ded_href.gif" alt="" style="margin-right:5px;"/>de dónde venimos</li>
+                                <li id="don_href2"><img src="img/icon_don_href.gif" alt="" style="margin-right:5px;"/>dónde encontrarnos</li>
 
                           </ul>
                           <div>
@@ -246,22 +246,56 @@
 
                 </section>
 
-                <section class="cont_map hide">
+                <section id="donde2" class="sectionnav row-fluid cont_map hidden-tablet hidden-desktop">
                    
                     <div class="map">
                         
-                        aqui va el mapa
+                        <div class="cont_leyenda well-small">
+                            
+                            <div class="paises_map">
+                                
+                                <h1>exportaciones</h1>
+                                <h2>agrosuper</h2>
+
+                                <ul class="unstyled pull-left">
+                                    <li class="pull-left">europa</li>
+                                    <li class="pull-left">méxico</li>
+                                    <li class="pull-left">sudamerica</li>
+                                    <li class="pull-left">usa</li>
+                                    <li class="pull-left">asia</li>
+                                    <li class="pull-left">áfrica</li>
+                                </ul>
+
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="marcas_map">
+                                
+                                <h1>nuestras</h1>
+                                <h2>marcas</h2>
+
+                                <ul class="unstyled" style="max-width:600px;min-width:400px">
+                                    <li class="pull-left"><img src="img/icon_crianza.png" alt=""></li>
+                                    <li class="pull-left"><img src="img/icon_santi.png" alt=""></li>
+                                    <li class="pull-left"><img src="img/icon_chaoba.png" alt=""></li>
+                                    <li class="pull-left"><img src="img/icon_sopraval.png" alt=""></li>
+                                    <li class="pull-left"><img src="img/icon_superpollo.png" alt=""></li>
+                                    <li class="pull-left"><img src="img/icon_supercerdo.png" alt=""></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
 
                     </div>
 
                 </section>
 
-                <section id="donde" class="sectionnav row-fluid cont_all_map">
+                <section id="donde" class="sectionnav row-fluid cont_all_map hidden-phone">
 
                     <div class="dash_map">
                     
-                        <div class="btn_open_map2 well-small" style="display:none;"><img src="img/arrow_map_close.gif" alt=""/></div>
-                        <div class="btn_open_map well-small"><img src="img/arrow_map.gif" alt=""/></div>
+                        <div class="btn_open_map2 well-small" style="display:none;"><img src="img/arrow_map.gif" alt=""/></div>
+                        <div class="btn_open_map well-small"><img src="img/arrow_map_close.gif" alt=""/></div>
 
                         <div class="cont_leyenda well-small">
                             
@@ -287,12 +321,12 @@
                                 <h2>marcas</h2>
 
                                 <ul class="unstyled">
-                                    <li><img src="" alt=""></li>
-                                    <li><img src="" alt=""></li>
-                                    <li><img src="" alt=""></li>
-                                    <li><img src="" alt=""></li>
-                                    <li><img src="" alt=""></li>
-                                    <li><img src="" alt=""></li>
+                                    <li class="pull-left"><img src="img/icon_crianza.png" alt=""></li>
+                                    <li class="pull-left"><img src="img/icon_santi.png" alt=""></li>
+                                    <li class="pull-left"><img src="img/icon_chaoba.png" alt=""></li>
+                                    <li class="pull-left"><img src="img/icon_sopraval.png" alt=""></li>
+                                    <li class="pull-left"><img src="img/icon_superpollo.png" alt=""></li>
+                                    <li class="pull-left"><img src="img/icon_supercerdo.png" alt=""></li>
                                 </ul>
 
                             </div>

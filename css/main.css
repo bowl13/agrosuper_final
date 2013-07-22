@@ -190,13 +190,39 @@ section .view-cinema{
 	margin-top:40px;
 }*/
 section.cont_map{
-	width:400px;
-	height: 500px;
-	position: fixed;
-	top: 10%;
-	right: -400px;
-	background-color: #fff;
-	z-index: 9999999;
+	width:100%;
+	height: 590px;
+	position: relative;
+	background-color: #eaedf1;
+	padding-top: 90px;
+}
+section.cont_map .cont_leyenda h1, section.cont_map .cont_leyenda h2{
+	font-size: 20px;
+	color: #359ed1;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 15px;
+}
+section.cont_map .cont_leyenda h2{
+	font-size: 33px;
+	font-weight: 600;
+}
+section.cont_map .cont_leyenda .paises_map ul{
+	color:#999;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 300;
+	min-width:280px;
+}
+section.cont_map .cont_leyenda .paises_map ul li{
+	margin: 5px 20px 10px 5px;
+	padding: 5px;
+	cursor:pointer;
+	width: 100px;
+}
+section.cont_map .cont_leyenda .paises_map ul li:hover{
+	background-color: #f37531;
+	color: #fff;
 }
 section.cont_all_map{
 	background-color: #eaedf1;
@@ -204,10 +230,11 @@ section.cont_all_map{
 }
 section.cont_all_map .cont_leyenda{
 	max-width:420px;
-	height:600px;
+	height:auto;
 	background-color: #fff;
 	position: absolute;
-	right:-440px;
+	right:0;
+	padding-bottom: 20px;
 }
 section.cont_all_map .dash_map{
 	width:420px;
@@ -269,6 +296,14 @@ section.cont_all_map .cont_leyenda .paises_map ul li:hover{
 	display:none;
 	position: absolute;
 	left:0;
+}
+.marcas_map ul{
+	width:95%;
+	margin:20px auto;
+}
+.marcas_map ul li{
+	max-width:116px;
+	margin-right:10px;
 }
 /*RESPONSIVE STY*/
 @media(max-width:700px){
