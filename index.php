@@ -257,11 +257,12 @@
                 </section>
 
                 <section id="donde" class="sectionnav row-fluid cont_all_map">
-                    
-                    <div class="btn_open_map well-large"><img src="img/arrow_map.gif" alt=""/></div>
 
-                    <div class="dash_map hide">
-                        
+                    <div class="dash_map">
+                    
+                        <div class="btn_open_map2 well-small"><img src="img/arrow_map.gif" alt=""/></div>
+                        <div class="btn_open_map well-small"><img src="img/arrow_map.gif" alt=""/></div>
+
                         <div class="cont_leyenda well-small">
                             
                             <div class="paises_map">

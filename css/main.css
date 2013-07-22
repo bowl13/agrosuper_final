@@ -206,6 +206,8 @@ section.cont_all_map .cont_leyenda{
 	height:600px;
 	background-color: #fff;
 	position: absolute;
+	right:-420px;
+	margin-top:10%;
 }
 section.cont_all_map .dash_map{
 	min-width:400px;
@@ -215,13 +217,16 @@ section.cont_all_map .dash_map{
 	z-index: 9999999;
 	right: 0;
 }
-section.cont_all_map .btn_open_map{
+section.cont_all_map .btn_open_map, section.cont_all_map .btn_open_map2{
 	max-width:48px;
 	max-height: 48px;
 	background-color: #f47531;
 	position: absolute;
-	right:0;
+	right:20px;
 	z-index: 99999999;
+	border-radius: none !important;
+	-moz-border-radius:none !important;
+	-webkit-border-radius:none !important;
 }
 section.cont_all_map .cont_leyenda h1, section.cont_all_map .cont_leyenda h2{
 	font-size: 20px;
