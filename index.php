@@ -260,7 +260,7 @@
 
                     <div class="dash_map">
                     
-                        <div class="btn_open_map2 well-small"><img src="img/arrow_map.gif" alt=""/></div>
+                        <div class="btn_open_map2 well-small" style="display:none;"><img src="img/arrow_map_close.gif" alt=""/></div>
                         <div class="btn_open_map well-small"><img src="img/arrow_map.gif" alt=""/></div>
 
                         <div class="cont_leyenda well-small">
@@ -271,13 +271,12 @@
                                 <h2>agrosuper</h2>
 
                                 <ul class="unstyled pull-left">
-                                    <li class="pull-left">europa</li>
-                                    <li class="pull-left">brasil</li>
-                                    <li class="pull-left">méxico</li>
-                                    <li class="pull-left">sudamerica</li>
-                                    <li class="pull-left">usa</li>
-                                    <li class="pull-left">asia</li>
-                                    <li class="pull-left">áfrica</li>
+                                    <li class="pull-left" id="eur">europa</li>
+                                    <li class="pull-left" id="mex">méxico</li>
+                                    <li class="pull-left" id="sud">sudamerica</li>
+                                    <li class="pull-left" id="usa">usa</li>
+                                    <li class="pull-left" id="asi">asia</li>
+                                    <li class="pull-left" id="afr">áfrica</li>
                                 </ul>
 
                             </div>
@@ -303,7 +302,16 @@
                     </div>
 
                     <div class="text-center mapa_mundi hidden-phone">
-                        <img src="img/mapa_mundi.gif" alt=""/>
+                        <img id="map_normal" src="img/mapa_mundi.gif" alt=""/>
+
+                        <img id="map_eur" src="img/hover_mapa/mapa_mundi_eur.gif" alt=""/>
+                        <img id="map_mex" src="img/hover_mapa/mapa_mundi_mex.gif" alt=""/>
+                        <img id="map_usa" src="img/hover_mapa/mapa_mundi_usa.gif" alt=""/>
+                        <img id="map_afr" src="img/hover_mapa/mapa_mundi_afr.gif" alt=""/>
+                        <img id="map_sud" src="img/hover_mapa/mapa_mundi_sud.gif" alt=""/>
+                        <img id="map_asi" src="img/hover_mapa/mapa_mundi_asi.gif" alt=""/>
+
+                        <div class="clearfix"></div>
                     </div>
 
                 </section>

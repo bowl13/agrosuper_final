@@ -78,18 +78,44 @@ $(document).ready(function() {
 
 
 	$('.btn_open_map').click(function(){
-		$('.dash_map').animate({
-			right:'420px'
+		$('.cont_leyenda').animate({
+			right:'0'
 		});
 		$('.btn_open_map').css('display','none');
 		$('.btn_open_map2').css('display','block');
 	});
 	$('.btn_open_map2').click(function(){
-		$('.dash_map').animate({
-			right:'-400px'
+		$('.cont_leyenda').animate({
+			right:'-440px'
 		});
 		$('.btn_open_map2').css('display','none');
 		$('.btn_open_map').css('display','block');
+
+	});
+
+	$('#eur').click(function(){
+		$('#map_normal,#map_afr,#map_asi,#map_mex,#map_sud,#map_usa').fadeOut();
+		$('#map_eur').fadeIn(1000);
+	});
+	$('#afr').click(function(){
+		$('#map_normal,#map_eur,#map_asi,#map_mex,#map_sud,#map_usa').fadeOut();
+		$('#map_afr').fadeIn(1000);
+	});
+	$('#usa').click(function(){
+		$('#map_normal,#map_eur,#map_asi,#map_mex,#map_sud,#map_afr').fadeOut();
+		$('#map_usa').fadeIn(1000);
+	});
+	$('#asi').click(function(){
+		$('#map_normal,#map_eur,#map_afr,#map_mex,#map_sud,#map_usa').fadeOut();
+		$('#map_asi').fadeIn(1000);
+	});
+	$('#mex').click(function(){
+		$('#map_normal,#map_eur,#map_asi,#map_afr,#map_sud,#map_usa').fadeOut();
+		$('#map_mex').fadeIn(1000);
+	});
+	$('#sud').click(function(){
+		$('#map_normal,#map_eur,#map_asi,#map_mex,#map_afr,#map_usa').fadeOut();
+		$('#map_sud').fadeIn(1000);
 	});
 
 });

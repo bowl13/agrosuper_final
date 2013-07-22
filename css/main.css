@@ -4,6 +4,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	margin-top: 75px;
 	overflow-x:hidden;
+	max-width: 1920px;
 }
 @media(max-width:768px){
 	body{
@@ -206,23 +207,23 @@ section.cont_all_map .cont_leyenda{
 	height:600px;
 	background-color: #fff;
 	position: absolute;
-	right:-420px;
-	margin-top:10%;
+	right:-440px;
 }
 section.cont_all_map .dash_map{
-	min-width:400px;
+	width:420px;
 	height: 600px;
 	position: absolute;
 	margin-top: 10%;
 	z-index: 9999999;
 	right: 0;
+	overflow: hidden;
 }
 section.cont_all_map .btn_open_map, section.cont_all_map .btn_open_map2{
 	max-width:48px;
 	max-height: 48px;
 	background-color: #f47531;
 	position: absolute;
-	right:20px;
+	right:0;
 	z-index: 99999999;
 	border-radius: none !important;
 	-moz-border-radius:none !important;
@@ -255,6 +256,19 @@ section.cont_all_map .cont_leyenda .paises_map ul li{
 section.cont_all_map .cont_leyenda .paises_map ul li:hover{
 	background-color: #f37531;
 	color: #fff;
+}
+.mapa_mundi{
+	min-height: 820px;
+	height: auto;
+}
+.mapa_mundi #map_normal{
+	position: absolute;
+	left:0;
+}
+.mapa_mundi #map_eur, .mapa_mundi #map_asi, .mapa_mundi #map_usa, .mapa_mundi #map_afr, .mapa_mundi #map_mex, .mapa_mundi #map_sud, .mapa_mundi #map_brz{
+	display:none;
+	position: absolute;
+	left:0;
 }
 /*RESPONSIVE STY*/
 @media(max-width:700px){
