@@ -96,7 +96,7 @@
                           </div>
                         </div>
 
-                        <img src="img/logo.gif" alt="" style="position:absolute;margin:0 auto;left:0;right:0;z-index:999999;"/>
+                        <img src="img/logo.png" alt="" style="position:absolute;margin:0 auto;left:0;right:0;z-index:999999;"/>
 
                     </div>
 
@@ -107,7 +107,7 @@
                     <div class="span2">
                         
                         <div class="logo">
-                            <img src="img/logo.gif" alt="">
+                            <img src="img/logo.png" alt="">
                         </div>
 
                     </div>
@@ -128,11 +128,23 @@
 
                         <div class="tools">
 
-                            <div class="lang pull-right">spa</div>
+                            <div class="lang pull-right">
+
+                                <img src="img/mund_lang.gif" alt="" class="pull-left"/>
+                                
+                                <ul class="unstyled pull-left cont_lang">
+                                    <li>español</li>
+                                    <li id="eng" style="display:none;">english</li>
+                                </ul>
+
+                                <img src="img/arrow_lang.gif" alt=""/>
+
+                            </div>
 
                             <div class="tw pull-right" style="margin-right:5px;border-right:2px solid #3598dc;padding-right:5px;"><img src="img/icon_tw.gif" alt=""></div>
                             <div class="fb pull-right" style="margin-right:5px;"><img src="img/icon_fb.gif" alt=""></div>
-                            
+
+                            <div class="clearfix"></div>
                         </div>
 
                     </div>
@@ -321,12 +333,19 @@
                                 <h2>marcas</h2>
 
                                 <ul class="unstyled">
-                                    <li class="pull-left"><img src="img/icon_crianza.png" alt=""></li>
-                                    <li class="pull-left"><img src="img/icon_santi.png" alt=""></li>
-                                    <li class="pull-left"><img src="img/icon_chaoba.png" alt=""></li>
-                                    <li class="pull-left"><img src="img/icon_sopraval.png" alt=""></li>
-                                    <li class="pull-left"><img src="img/icon_superpollo.png" alt=""></li>
-                                    <li class="pull-left"><img src="img/icon_supercerdo.png" alt=""></li>
+
+                                    <li id="mar_cri" class="pull-left"></li>
+                                    <li id="mar_san" class="pull-left"></li>
+                                    <li id="mar_cha" class="pull-left"></li>
+
+                                    <li id="mar_sop" class="pull-left"></li>
+                                    <li id="mar_spo" class="pull-left"></li>
+                                    <li id="mar_sce" class="pull-left"></li>
+
+                                    <li id="mar_kin" class="pull-left"></li>
+                                    <li id="mar_ssa" class="pull-left"></li>
+                                    <li id="mar_and" class="pull-left"></li>
+
                                 </ul>
 
                             </div>

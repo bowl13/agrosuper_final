@@ -1,5 +1,8 @@
 $(document).ready(function() {
-
+//LANG
+	$('.cont_lang li').click(function(){
+		$('.cont_lang li#eng').slideToggle();
+	});
 //ARROW KEY NAV
 	 $("section.sectionnav").keyboardScroll(
       {
@@ -80,7 +83,7 @@ $(document).ready(function() {
 		});
 	});*/
 
-
+//UI MAPS
 	$('.btn_open_map').click(function(){
 		$('.cont_leyenda').animate({
 			right:'-440px'
@@ -94,36 +97,49 @@ $(document).ready(function() {
 		});
 		$('.btn_open_map2').css('display','none');
 		$('.btn_open_map').css('display','block');
+		$('#mar_cri, #mar_and, #mar_cha, #mar_san, #mar_kin, #mar_sop, #mar_ssa, #mar_spo, #mar_sce').css('background-position','top');
 
 	});
 
 	$('#eur').click(function(){
 		$('#map_normal,#map_afr,#map_asi,#map_mex,#map_sud,#map_usa').fadeOut();
 		$('#map_eur').fadeIn(1000);
+		$('#mar_cri, #mar_and').css('background-position','center bottom');
+		$('#mar_cha, #mar_san, #mar_kin, #mar_sop, #mar_ssa, #mar_spo, #mar_sce').css('background-position','center top');
 	});
 	$('#afr').click(function(){
 		$('#map_normal,#map_eur,#map_asi,#map_mex,#map_sud,#map_usa').fadeOut();
 		$('#map_afr').fadeIn(1000);
+		$('#mar_san').css('background-position','center bottom');
+		$('#mar_cri, #mar_and, #mar_cha, #mar_kin, #mar_sop, #mar_ssa, #mar_spo, #mar_sce').css('background-position','center top');
 	});
 	$('#usa').click(function(){
 		$('#map_normal,#map_eur,#map_asi,#map_mex,#map_sud,#map_afr').fadeOut();
 		$('#map_usa').fadeIn(1000);
+		$('#mar_sop, #mar_ssa').css('background-position','center bottom');
+		$('#mar_cri, #mar_and, #mar_cha, #mar_san, #mar_kin, #mar_ssa, #mar_spo, #mar_sce').css('background-position','center top');
 	});
 	$('#asi').click(function(){
 		$('#map_normal,#map_eur,#map_afr,#map_mex,#map_sud,#map_usa').fadeOut();
 		$('#map_asi').fadeIn(1000);
+		$('#mar_spo, #mar_sce').css('background-position','center bottom');
+		$('#mar_cri, #mar_and, #mar_cha, #mar_san, #mar_kin, #mar_sop, #mar_ssa').css('background-position','center top');
 	});
 	$('#mex').click(function(){
 		$('#map_normal,#map_eur,#map_asi,#map_afr,#map_sud,#map_usa').fadeOut();
 		$('#map_mex').fadeIn(1000);
+		$('#mar_cha, #mar_san, #mar_kin, #mar_sop').css('background-position','center bottom');
+		$('#mar_cri, #mar_and, #mar_ssa, #mar_spo, #mar_sce').css('background-position','center top');
 	});
 	$('#sud').click(function(){
 		$('#map_normal,#map_eur,#map_asi,#map_mex,#map_afr,#map_usa').fadeOut();
 		$('#map_sud').fadeIn(1000);
+		$('#mar_cri, #mar_and, #mar_cha, #mar_ssa, #mar_spo').css('background-position','center bottom');
+		$('#mar_san, #mar_kin, #mar_sop, #mar_sce').css('background-position','center top');
 	});
 
 });
-/*loading*/
+//LOADING
 $(window).load(function(){
 
 	$('.load').delay(1000).fadeOut(2000, function(){

@@ -99,8 +99,26 @@ body{
 	}
 }
 .head_cont .tools{
-	padding-top: 30px;
-	margin-right: 10px;
+	/*padding-top: 30px;*/
+	margin:30px 10px 0 0; 
+}
+.head_cont .tools .lang{
+	padding-top: 3px;
+}
+.head_cont .tools img{
+	vertical-align: middle;
+}
+.head_cont .tools .cont_lang{
+	width:65px;
+	min-height: 20px;
+	overflow: hidden;
+	background-color: #fff;
+	padding-left: 5px;
+	display: block;
+}
+.head_cont .tools .cont_lang li{
+	margin-bottom: 10px;
+	cursor: pointer;
 }
 .head_cont .logo{
 	margin: 10px 5px;
@@ -298,12 +316,58 @@ section.cont_all_map .cont_leyenda .paises_map ul li:hover{
 	left:0;
 }
 .marcas_map ul{
-	width:95%;
-	margin:20px auto;
+	max-width: 95%;
+	margin:20px 10px;
 }
 .marcas_map ul li{
-	max-width:116px;
-	margin-right:10px;
+	padding:10px;
+	margin: 0 10px 10px
+}
+#mar_cri, #mar_and, #mar_cha, #mar_san, #mar_kin, #mar_sop, #mar_ssa, #mar_spo, #mar_sce{
+	overflow:hidden;
+	background-position:center top;
+	background-repeat: no-repeat;
+	height: 30px;
+}
+#mar_cri{
+	background-image: url('../img/icon_crianza_c.png');
+	min-width:90px;
+}
+#mar_san{
+	background-image: url('../img/icon_santi_c.png');
+	min-width:52px;
+}
+#mar_cha{
+	background-image: url('../img/icon_chaoba_c.png');
+	min-width:98px;
+}
+#mar_and{
+	background-image: url('../img/icon_andes_c.png');
+	min-width:67px;
+}
+#mar_kin{
+	background-image: url('../img/icon_king_c.png');
+	min-width:75px;
+	height: 29px;
+}
+#mar_sop{
+	background-image: url('../img/icon_sopraval_c.png');
+	min-width: 64px;
+}
+#mar_ssa{
+	background-image: url('../img/icon_supersalmon_c.png');
+	min-width: 65px;
+	height: 29px;
+}
+#mar_spo{
+	background-image: url('../img/icon_superpollo_c.png');
+	min-width:60px;
+	height: 32px;
+}
+#mar_sce{
+	background-image: url('../img/icon_supercerdo_c.png');
+	min-width: 62px;
+	height: 32px;
 }
 /*RESPONSIVE STY*/
 @media(max-width:700px){
