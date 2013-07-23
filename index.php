@@ -270,12 +270,12 @@
                                 <h2>agrosuper</h2>
 
                                 <ul class="unstyled pull-left">
-                                    <li class="pull-left">europa</li>
-                                    <li class="pull-left">méxico</li>
-                                    <li class="pull-left">sudamerica</li>
-                                    <li class="pull-left">usa</li>
-                                    <li class="pull-left">asia</li>
-                                    <li class="pull-left">áfrica</li>
+                                    <li class="pull-left" id="eur">europa</li>
+                                    <li class="pull-left" id="mex">méxico</li>
+                                    <li class="pull-left" id="sud">sudamerica</li>
+                                    <li class="pull-left" id="usa">usa</li>
+                                    <li class="pull-left" id="asi">asia</li>
+                                    <li class="pull-left" id="afr">áfrica</li>
                                 </ul>
 
                             </div>
@@ -286,12 +286,17 @@
                                 <h2>marcas</h2>
 
                                 <ul class="unstyled" style="max-width:600px;min-width:400px">
-                                    <li class="pull-left"><img src="img/icon_crianza.png" alt=""></li>
-                                    <li class="pull-left"><img src="img/icon_santi.png" alt=""></li>
-                                    <li class="pull-left"><img src="img/icon_chaoba.png" alt=""></li>
-                                    <li class="pull-left"><img src="img/icon_sopraval.png" alt=""></li>
-                                    <li class="pull-left"><img src="img/icon_superpollo.png" alt=""></li>
-                                    <li class="pull-left"><img src="img/icon_supercerdo.png" alt=""></li>
+                                    <li id="mar_cri" class="pull-left"></li>
+                                    <li id="mar_san" class="pull-left"></li>
+                                    <li id="mar_cha" class="pull-left"></li>
+
+                                    <li id="mar_sop" class="pull-left"></li>
+                                    <li id="mar_spo" class="pull-left"></li>
+                                    <li id="mar_sce" class="pull-left"></li>
+
+                                    <li id="mar_kin" class="pull-left"></li>
+                                    <li id="mar_ssa" class="pull-left"></li>
+                                    <li id="mar_and" class="pull-left"></li>
                                 </ul>
 
                             </div>
