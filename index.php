@@ -112,7 +112,7 @@
 
                     </div>
                     
-                    <div class="span8">
+                    <div class="span7">
                         
                         <nav>
                             <ul class="unstyled nav nav-pills">
@@ -124,7 +124,7 @@
 
                     </div>
 
-                    <div class="span2">
+                    <div class="span3">
 
                         <div class="tools">
 
@@ -151,7 +151,7 @@
 
                 </header>
 
-                <section id="quienes" class="sectionnav row-fluid" style="background-color:#000;">
+                <section class="sectionnav row-fluid" style="background-color:#000;">
 
                     <div class="hidden-desktop hidden-tablet">
 
@@ -167,7 +167,7 @@
 
                     </div>
 
-                    <video id="youtube1" class="hidden-phone" style="display:none;" width="100%" height="100%" loop>
+                    <video data-type="video" id="youtube1" class="hidden-phone" style="display:none;" width="100%" height="100%" loop>
                         
                         <source src="http://www.youtube.com/watch?v=a5iDPFbIRdo" type="video/youtube">
                         <track kind="subtitles" src="sub/agrosuper-es.srt" srclang="es" />
@@ -181,7 +181,6 @@
                     <span id="youtube1-mode"></span>
 
                 </section>
-
                 <section id="dedonde" class="sectionnav row-fluid cont_slide">
                     
                     <div id="myCarousel" class="carousel slide">
@@ -270,12 +269,12 @@
                                 <h2>agrosuper</h2>
 
                                 <ul class="unstyled pull-left">
-                                    <li class="pull-left" id="eur">europa</li>
-                                    <li class="pull-left" id="mex">méxico</li>
-                                    <li class="pull-left" id="sud">sudamerica</li>
-                                    <li class="pull-left" id="usa">usa</li>
-                                    <li class="pull-left" id="asi">asia</li>
-                                    <li class="pull-left" id="afr">áfrica</li>
+                                    <li class="pull-left" id="eur2">europa</li>
+                                    <li class="pull-left" id="mex2">méxico</li>
+                                    <li class="pull-left" id="sud2">sudamerica</li>
+                                    <li class="pull-left" id="usa2">usa</li>
+                                    <li class="pull-left" id="asi2">asia</li>
+                                    <li class="pull-left" id="afr2">áfrica</li>
                                 </ul>
 
                             </div>
@@ -285,18 +284,18 @@
                                 <h1>nuestras</h1>
                                 <h2>marcas</h2>
 
-                                <ul class="unstyled" style="max-width:600px;min-width:400px">
-                                    <li id="mar_cri" class="pull-left"></li>
-                                    <li id="mar_san" class="pull-left"></li>
-                                    <li id="mar_cha" class="pull-left"></li>
+                                <ul class="unstyled cont_marc_resp" style="width:95%;">
+                                    <li id="mar_cri2" class="pull-left"></li>
+                                    <li id="mar_san2" class="pull-left"></li>
+                                    <li id="mar_cha2" class="pull-left"></li>
 
-                                    <li id="mar_sop" class="pull-left"></li>
-                                    <li id="mar_spo" class="pull-left"></li>
-                                    <li id="mar_sce" class="pull-left"></li>
+                                    <li id="mar_sop2" class="pull-left"></li>
+                                    <li id="mar_spo2" class="pull-left"></li>
+                                    <li id="mar_sce2" class="pull-left"></li>
 
-                                    <li id="mar_kin" class="pull-left"></li>
-                                    <li id="mar_ssa" class="pull-left"></li>
-                                    <li id="mar_and" class="pull-left"></li>
+                                    <li id="mar_kin2" class="pull-left"></li>
+                                    <li id="mar_ssa2" class="pull-left"></li>
+                                    <li id="mar_and2" class="pull-left"></li>
                                 </ul>
 
                             </div>
@@ -371,7 +370,7 @@
 
                         <div class="clearfix"></div>
                     </div>
-
+                <div class="clearfix"></div>
                 </section>
 
             </div> <!-- /container -->
@@ -385,7 +384,7 @@
             
             <div class="row-fluid">
                 
-                <div class="like_fb pull-left" style="margin-left:10px;">
+                <div class="like_fb pull-left" style="margin-left:10px;overflow:hidden;width:100px">
                                         
                     <div class="fb-like" data-href="http://www.bowl.cl" data-send="false" data-width="450" data-show-faces="false"></div>
 
@@ -403,7 +402,7 @@
                 </div>
 
             </div>
-                
+            <div style="width:100%;height:10px;background-color:#3399cc;position:absolute;bottom:0;"></div>
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

@@ -69,12 +69,12 @@ body{
 }
 .head_cont nav{
 	width: 510px;
-	margin: 0 auto;
+	margin: 7px auto;
 }
 .head_cont nav li{
 	color: #3598dc;
 	padding:5px;
-	margin-right: 5px;
+	margin-left: 20px;
 	cursor: pointer;
 }
 .head_cont nav li:hover{
@@ -259,7 +259,7 @@ section.cont_all_map .dash_map{
 	height: 600px;
 	position: absolute;
 	margin-top: 10%;
-	z-index: 9999999;
+	z-index: 9999;
 	right: 0;
 	overflow: hidden;
 }
@@ -305,6 +305,7 @@ section.cont_all_map .cont_leyenda .paises_map ul li:hover{
 .mapa_mundi{
 	min-height: 820px;
 	height: auto;
+	background-color: #eaedf1;
 }
 .mapa_mundi #map_normal{
 	position: absolute;
@@ -323,53 +324,58 @@ section.cont_all_map .cont_leyenda .paises_map ul li:hover{
 	padding:10px;
 	margin: 0 10px 10px
 }
-#mar_cri, #mar_and, #mar_cha, #mar_san, #mar_kin, #mar_sop, #mar_ssa, #mar_spo, #mar_sce{
+#mar_cri, #mar_and, #mar_cha, #mar_san, #mar_kin, #mar_sop, #mar_ssa, #mar_spo, #mar_sce, #mar_cri2, #mar_and2, #mar_cha2, #mar_san2, #mar_kin2, #mar_sop2, #mar_ssa2, #mar_spo2, #mar_sce2{
 	overflow:hidden;
 	background-position:center top;
 	background-repeat: no-repeat;
 	height: 30px;
 }
-#mar_cri{
+#mar_cri, #mar_cri2{
 	background-image: url('../img/icon_crianza_c.png');
 	min-width:90px;
 }
-#mar_san{
+#mar_san, #mar_san2{
 	background-image: url('../img/icon_santi_c.png');
 	min-width:52px;
 }
-#mar_cha{
+#mar_cha, #mar_cha2{
 	background-image: url('../img/icon_chaoba_c.png');
 	min-width:98px;
 }
-#mar_and{
+#mar_and, #mar_and2{
 	background-image: url('../img/icon_andes_c.png');
 	min-width:67px;
 }
-#mar_kin{
+#mar_kin, #mar_kin2{
 	background-image: url('../img/icon_king_c.png');
 	min-width:75px;
 	height: 29px;
 }
-#mar_sop{
+#mar_sop, #mar_sop2{
 	background-image: url('../img/icon_sopraval_c.png');
 	min-width: 64px;
 }
-#mar_ssa{
+#mar_ssa, #mar_ssa2{
 	background-image: url('../img/icon_supersalmon_c.png');
 	min-width: 65px;
 	height: 29px;
 }
-#mar_spo{
+#mar_spo, #mar_spo2{
 	background-image: url('../img/icon_superpollo_c.png');
 	min-width:60px;
 	height: 32px;
 }
-#mar_sce{
+#mar_sce, #mar_sce2{
 	background-image: url('../img/icon_supercerdo_c.png');
 	min-width: 62px;
 	height: 32px;
 }
 /*RESPONSIVE STY*/
+@media(width:768px){
+	.head_cont nav li{
+		margin-left:10px;
+	}
+}
 @media(max-width:700px){
 	body{
 		margin-top:0px;
@@ -430,6 +436,9 @@ section.cont_all_map .cont_leyenda .paises_map ul li:hover{
 		min-width: 320px;
 		height:570px !important;
 	}
+	#mar_cri2, #mar_and2, #mar_cha2, #mar_san2, #mar_kin2, #mar_sop2, #mar_ssa2, #mar_spo2, #mar_sce2{
+		width:100px;
+	}
 }
 @media(width:640px){
 	.cont_play{
@@ -440,6 +449,9 @@ section.cont_all_map .cont_leyenda .paises_map ul li:hover{
 		max-height:370px;
 		background-position: center right;
 	}
+	.cont_marc_resp{
+		width:80% !important;
+	}
 }
 @media(width:480px){
 	.cont_play{
@@ -448,5 +460,10 @@ section.cont_all_map .cont_leyenda .paises_map ul li:hover{
 	}
 	.cin_01{
 		max-height:320px;
+	}
+}
+@media(width:320px){
+	#mar_cri2, #mar_and2, #mar_cha2, #mar_san2, #mar_kin2, #mar_sop2, #mar_ssa2, #mar_spo2, #mar_sce2{
+		width:94px;
 	}
 }
