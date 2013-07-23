@@ -1,7 +1,7 @@
 $(document).ready(function() {
 //LANG
 	$('.cont_lang li').click(function(){
-		$('.cont_lang li#eng').slideToggle();
+		$('#cont_lang2').slideToggle();
 	});
 //ARROW KEY NAV
 	 $("section.sectionnav").keyboardScroll(
@@ -43,7 +43,7 @@ $(document).ready(function() {
 		$('#txt_key').css('display','inline').delay(1000).fadeOut();
 	});
 
-	//RESPONSIVE MENU
+//RESPONSIVE MENU
 	$('#simple-menu').sidr({
 		side: 'right'
 	});
@@ -66,22 +66,6 @@ $(document).ready(function() {
 	$('#don_href2').click(function(){
 		$.scrollTo('#donde2',1500,{easing:'easeOutQuad'});
 	});
-
-
-//OPENMAP
-	/*$('#open_map').click(function(){
-		$('.cont_map').toggle('fast', function(){
-			var $anima = $('.cont_map');
-			$(this).is(':visible') ? $anima.animate({bottom:'0'},500) : $anima.animate({bottom:'-500px'},500);
-		});
-	});*/
-
-	/*$('.btn_open_map').click(function(){
-		$('.dash_map').toggle(300, function(){
-			var $anima = $('.cont_leyenda');
-			$(this).is(':visible') ? $anima.delay(1000).animate({right:'0'},{duration:500, easing:'easeOutCubic'}) : $anima.delay(1000).animate({right:'-400px'},{duration:1500, easing:'easeInElastic'});
-		});
-	});*/
 
 //UI MAPS
 	$('.btn_open_map').click(function(){

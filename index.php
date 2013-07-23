@@ -134,7 +134,11 @@
                                 
                                 <ul class="unstyled pull-left cont_lang">
                                     <li>español</li>
-                                    <li id="eng" style="display:none;">english</li>
+                                    <ul id="cont_lang2" class="unstyled"> 
+                                        <li class="pull-left" id="eng">english</li>
+                                        <li class="pull-left">/</li>
+                                        <li class="pull-left" id="kor">korea</li>   
+                                    </ul>
                                 </ul>
 
                                 <img src="img/arrow_lang.gif" alt=""/>
@@ -375,8 +379,6 @@
 
             </div> <!-- /container -->
 
-            <!--div id="push"></div-->
-
         </div>
 
 
@@ -384,10 +386,14 @@
             
             <div class="row-fluid">
                 
-                <div class="like_fb pull-left" style="margin-left:10px;overflow:hidden;width:100px">
+                <div class="like_fb pull-left" style="margin-left:10px;overflow:hidden;width:80px">
                                         
                     <div class="fb-like" data-href="http://www.bowl.cl" data-send="false" data-width="450" data-show-faces="false"></div>
+                    
+                </div>
 
+                <div class="pull-left" style="border-left:1px solid #fff;margin-left:5px;padding-left:10px;">
+                    © 2013 Agrosuper. All rights reserved.
                 </div>
 
                 <div class="nav_key pull-right" style="margin-right:10px;">
