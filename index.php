@@ -145,8 +145,8 @@
 
                             </div>
 
-                            <div class="tw pull-right" style="margin-right:5px;border-right:2px solid #3598dc;padding-right:5px;"><img src="img/icon_tw.gif" alt=""></div>
-                            <div class="fb pull-right" style="margin-right:5px;"><img src="img/icon_fb.gif" alt=""></div>
+                            <div class="tw pull-right" style="margin-right:10px;border-right:2px solid #3598dc;padding-right:10px;"><img src="img/icon_tw.gif" alt=""></div>
+                            <div class="fb pull-right" style="margin-right:10px;"><img src="img/icon_fb.gif" alt=""></div>
 
                             <div class="clearfix"></div>
                         </div>
@@ -155,7 +155,7 @@
 
                 </header>
 
-                <section class="sectionnav row-fluid" style="background-color:#000;">
+                <section id="quienes" class="sectionnav row-fluid" style="background-color:#000;">
 
                     <div class="hidden-desktop hidden-tablet">
 
