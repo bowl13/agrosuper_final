@@ -15,7 +15,7 @@
         <meta property="fb:app_id" content="178779322280867"/>
         <meta property="og:url" content="http://fb.bowl.cl/fbprub/"/>
         <meta property="og:title" content="TITULO PROYECTO"/>
-        <meta property="og:description" content="DESCRIPCION APP FACEBOOK"/>
+        <meta property="og:description" content="Porque comer es más que alimentarse, descubre AgrosuperFoods un mundo de sabores en tu mesa."/>
         <meta property="og:site_name" content="PROYECTO"/>
         <meta property="og:type" content="video">
         
@@ -152,7 +152,7 @@
                             
                             <div class="tw pull-right" style="padding-top:5px;margin-right:10px;border-right:2px solid #3598dc;padding-right:10px;">
 
-                                <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true" data-count="none" data-text="Hola mundo" data-lang="es">Twitea</a>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true" data-count="none" data-text="Conoce #AgrosuperFoods un mundo de sabores para que comer sea más que alimentarse." data-lang="es">Twitea</a>
                                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                             
                             </div>                      
@@ -207,7 +207,7 @@
 
                         <div class="active item">
                             
-                            <p>01somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
+                            <p>Somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
 
                             <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
 
@@ -225,7 +225,7 @@
 
                         <div class="item">
                             
-                            <p>02somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
+                            <p>Con alimentos de primera calidad que cumplen<br/> <span>estándares internacionales</span>.</p>
 
                             <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
 
@@ -242,7 +242,7 @@
                         </div>
                         <div class="item">
                             
-                            <p>03somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
+                            <p>Nos enfocamos en personas para las cuales comer es<br/> <span>más que alimentarse</span>.</p>
 
                             <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
 
@@ -261,7 +261,7 @@
 
                         <div class="item">
                             
-                            <p>04somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
+                            <p>Personas que saborean cada aspecto <span>de su vida</span>.</p>
 
                             <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
 
@@ -306,12 +306,9 @@
                                 <h2>agrosuper</h2>
 
                                 <ul class="unstyled pull-left">
-                                    <li class="pull-left" id="eur2">europa</li>
-                                    <li class="pull-left" id="mex2">méxico</li>
-                                    <li class="pull-left" id="sud2">sudamerica</li>
-                                    <li class="pull-left" id="usa2">usa</li>
-                                    <li class="pull-left" id="asi2">asia</li>
-                                    <li class="pull-left" id="afr2">áfrica</li>
+                                    <li class="pull-left" id="eur2">Europa</li>
+                                    <li class="pull-left" id="asi2">Asia</li>
+                                    <li class="pull-left" id="sud2">America</li>
                                 </ul>
 
                             </div>
@@ -322,17 +319,22 @@
                                 <h2>marcas</h2>
 
                                 <ul class="unstyled cont_marc_resp" style="width:95%;">
-                                    <li id="mar_cri2" class="pull-left"></li>
-                                    <li id="mar_san2" class="pull-left"></li>
+                                    <li id="mar_cri2" class="pull-left" style="height:19px;"></li>
+                                    <li id="mar_san2" class="pull-left" style="height:23px;"></li>
                                     <li id="mar_cha2" class="pull-left"></li>
 
                                     <li id="mar_sop2" class="pull-left"></li>
-                                    <li id="mar_spo2" class="pull-left"></li>
-                                    <li id="mar_sce2" class="pull-left"></li>
+                                    <li id="mar_spo2" class="pull-left" style="height:25px;"></li>
+                                    <li id="mar_sce2" class="pull-left" style="height:26px;"></li>
 
-                                    <li id="mar_kin2" class="pull-left"></li>
-                                    <li id="mar_ssa2" class="pull-left"></li>
-                                    <li id="mar_and2" class="pull-left"></li>
+                                    <li id="mar_kin2" class="pull-left" style="height:18px;"></li>
+                                    <li id="mar_ssa2" class="pull-left" style="height:22px;"></li>
+                                    
+
+                                    <li id="mar_agro12" class="pull-left"></li>
+                                    <li id="mar_agro22" class="pull-left"></li>
+                                    <li id="mar_agro32" class="pull-left"></li>
+                                    <li id="mar_and2" class="pull-left" style="height:19px"></li>
                                 </ul>
 
                             </div>
@@ -358,16 +360,13 @@
                                 <h2>agrosuper</h2>
 
                                 <ul class="unstyled pull-left">
-                                    <li class="pull-left" id="eur">europa</li>
-                                    <li class="pull-left" id="mex">méxico</li>
-                                    <li class="pull-left" id="sud">sudamerica</li>
-                                    <li class="pull-left" id="usa">usa</li>
-                                    <li class="pull-left" id="asi">asia</li>
-                                    <li class="pull-left" id="afr">áfrica</li>
+                                    <li id="eur">Europa</li>
+                                    <li id="asi">Asia</li>
+                                    <li id="sud">America</li>
                                 </ul>
 
                             </div>
-                            
+                            <div class="clearfix"></div>
                             <div class="marcas_map">
                                 
                                 <h1>nuestras</h1>
@@ -375,17 +374,22 @@
 
                                 <ul class="unstyled">
 
-                                    <li id="mar_cri" class="pull-left"></li>
-                                    <li id="mar_san" class="pull-left"></li>
+                                    <li id="mar_cri" class="pull-left" style="height:19px;"></li>
+                                    <li id="mar_san" class="pull-left" style="height:23px;"></li>
                                     <li id="mar_cha" class="pull-left"></li>
 
-                                    <li id="mar_sop" class="pull-left"></li>
-                                    <li id="mar_spo" class="pull-left"></li>
-                                    <li id="mar_sce" class="pull-left"></li>
+                                    <li id="mar_sop" class="pull-left" style="height:22px;"></li>
+                                    <li id="mar_spo" class="pull-left" style="height:25px;"></li>
+                                    <li id="mar_sce" class="pull-left" style="height:26px;"></li>
 
-                                    <li id="mar_kin" class="pull-left"></li>
-                                    <li id="mar_ssa" class="pull-left"></li>
-                                    <li id="mar_and" class="pull-left"></li>
+                                    <li id="mar_kin" class="pull-left" style="height:18px;"></li>
+                                    <li id="mar_ssa" class="pull-left" style="height:22px;"></li>
+                                    
+
+                                    <li id="mar_agro1" class="pull-left"></li>
+                                    <li id="mar_agro2" class="pull-left"></li>
+                                    <li id="mar_agro3" class="pull-left"></li>
+                                    <li id="mar_and" class="pull-left" style="height:19px"></li>
 
                                 </ul>
 
@@ -396,6 +400,7 @@
                     </div>
 
                     <div class="text-center mapa_mundi hidden-phone">
+                        
                         <img id="map_normal" src="img/mapa_mundi.gif" alt=""/>
 
                         <img id="map_eur" src="img/hover_mapa/mapa_mundi_eur.gif" alt=""/>
@@ -406,7 +411,9 @@
                         <img id="map_asi" src="img/hover_mapa/mapa_mundi_asi.gif" alt=""/>
 
                         <div class="clearfix"></div>
+
                     </div>
+
                 <div class="clearfix"></div>
                 </section>
 

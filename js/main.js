@@ -85,63 +85,34 @@ $(document).ready(function() {
 	});
 
 	$('#eur, #eur2').click(function(){
-		$('#map_normal,#map_afr,#map_asi,#map_mex,#map_sud,#map_usa').fadeOut();
+		$('#map_normal,#map_asi,#map_sud').fadeOut();
 		$('#map_eur').fadeIn(1000);
 		
-		$('#mar_cri, #mar_and').css('background-position','center bottom');
-		$('#mar_cha, #mar_san, #mar_kin, #mar_sop, #mar_ssa, #mar_spo, #mar_sce').css('background-position','center top');
+		$('#mar_spo, #mar_kin, #mar_cha, #mar_san').css('background-position','center top');
+		$('#mar_cri, #mar_and, #mar_sop, #mar_ssa, #mar_sce, #mar_agro1, #mar_agro2, #mar_agro3').css('background-position','center bottom');
 //RESPONSIVE SCRIPT
-		$('#mar_cri2, #mar_and2').css('background-position','center bottom');
-		$('#mar_cha2, #mar_san2, #mar_kin2, #mar_sop2, #mar_ssa2, #mar_spo2, #mar_sce2').css('background-position','center top');
-	});
-	$('#afr, #afr2').click(function(){
-		$('#map_normal,#map_eur,#map_asi,#map_mex,#map_sud,#map_usa').fadeOut();
-		$('#map_afr').fadeIn(1000);
-		
-		$('#mar_san').css('background-position','center bottom');
-		$('#mar_cri, #mar_and, #mar_cha, #mar_kin, #mar_sop, #mar_ssa, #mar_spo, #mar_sce').css('background-position','center top');
-//RESPONSIVE SCRIPT
-		$('#mar_san2').css('background-position','center bottom');
-		$('#mar_cri2, #mar_and2, #mar_cha2, #mar_kin2, #mar_sop2, #mar_ssa2, #mar_spo2, #mar_sce2').css('background-position','center top');
-	});
-	$('#usa, #usa2').click(function(){
-		$('#map_normal,#map_eur,#map_asi,#map_mex,#map_sud,#map_afr').fadeOut();
-		$('#map_usa').fadeIn(1000);
-		
-		$('#mar_sop, #mar_ssa').css('background-position','center bottom');
-		$('#mar_cri, #mar_and, #mar_cha, #mar_san, #mar_kin, #mar_ssa, #mar_spo, #mar_sce').css('background-position','center top');
-//RESPONSIVE SCRIPT
-		$('#mar_sop2, #mar_ssa2').css('background-position','center bottom');
-		$('#mar_cri2, #mar_and2, #mar_cha2, #mar_san2, #mar_kin2, #mar_ssa2, #mar_spo2, #mar_sce2').css('background-position','center top');
+		$('#mar_spo2, #mar_kin2, #mar_cha2, #mar_san2').css('background-position','center top');
+		$('#mar_cri2, #mar_and2, #mar_sop2, #mar_ssa2, #mar_sce2, #mar_agro12, #mar_agro22, #mar_agro32').css('background-position','center bottom');
 	});
 	$('#asi, #asi2').click(function(){
-		$('#map_normal,#map_eur,#map_afr,#map_mex,#map_sud,#map_usa').fadeOut();
+		$('#map_normal,#map_eur,#map_sud').fadeOut();
 		$('#map_asi').fadeIn(1000);
-		$('#mar_spo, #mar_sce').css('background-position','center bottom');
-		$('#mar_cri, #mar_and, #mar_cha, #mar_san, #mar_kin, #mar_sop, #mar_ssa').css('background-position','center top');
-//RESPONSIVE SCRIPT
-		$('#mar_spo2, #mar_sce2').css('background-position','center bottom');
-		$('#mar_cri2, #mar_and2, #mar_cha2, #mar_san2, #mar_kin2, #mar_sop2, #mar_ssa2').css('background-position','center top');
-	});
-	$('#mex, #mex2').click(function(){
-		$('#map_normal,#map_eur,#map_asi,#map_afr,#map_sud,#map_usa').fadeOut();
-		$('#map_mex').fadeIn(1000);
 
-		$('#mar_cha, #mar_san, #mar_kin, #mar_sop').css('background-position','center bottom');
-		$('#mar_cri, #mar_and, #mar_ssa, #mar_spo, #mar_sce').css('background-position','center top');
+		$('#mar_agro1, #mar_agro2, #mar_agro3, #mar_and').css('background-position','center top');
+		$('#mar_cri, #mar_cha, #mar_san, #mar_kin, #mar_sop, #mar_ssa, #mar_spo, #mar_sce').css('background-position','center bottom');
 //RESPONSIVE SCRIPT
-		$('#mar_cha2, #mar_san2, #mar_kin2, #mar_sop2').css('background-position','center bottom');
-		$('#mar_cri2, #mar_and2, #mar_ssa2, #mar_spo2, #mar_sce2').css('background-position','center top');
+		$('#mar_agro12, #mar_agro22, #mar_agro32, #mar_and2').css('background-position','center top');
+		$('#mar_cri2, #mar_cha2, #mar_san2, #mar_kin2, #mar_sop2, #mar_ssa2, #mar_spo2, #mar_sce2').css('background-position','center bottom');
 	});
 	$('#sud, #sud2').click(function(){
-		$('#map_normal,#map_eur,#map_asi,#map_mex,#map_afr,#map_usa').fadeOut();
+		$('#map_normal,#map_eur,#map_asi').fadeOut();
 		$('#map_sud').fadeIn(1000);
 		
-		$('#mar_cri, #mar_and, #mar_cha, #mar_ssa, #mar_spo').css('background-position','center bottom');
-		$('#mar_san, #mar_kin, #mar_sop, #mar_sce').css('background-position','center top');
+		$('#mar_cri, #mar_ssa, #mar_spo,  #mar_sce, #mar_sop').css('background-position','center top');
+		$('#mar_and, #mar_cha, #mar_san, #mar_kin, #mar_agro1, #mar_agro2, #mar_agro3').css('background-position','center bottom');
 //RESPONSIVE SCRIPT
-		$('#mar_cri2, #mar_and2, #mar_cha2, #mar_ssa2, #mar_spo2').css('background-position','center bottom');
-		$('#mar_san2, #mar_kin2, #mar_sop2, #mar_sce2').css('background-position','center top');
+		$('#mar_cri2, #mar_ssa2, #mar_spo2,  #mar_sce2, #mar_sop2').css('background-position','center top');
+		$('#mar_and2, #mar_cha2, #mar_san2, #mar_kin2, #mar_agro12, #mar_agro22, #mar_agro32').css('background-position','center bottom');
 	});
 
 });
