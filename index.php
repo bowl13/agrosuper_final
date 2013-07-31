@@ -114,7 +114,7 @@
 
                     </div>
                     
-                    <div class="span7">
+                    <div class="span6">
                         
                         <nav>
                             <ul class="unstyled nav nav-pills">
@@ -126,7 +126,7 @@
 
                     </div>
 
-                    <div class="span3">
+                    <div class="span4">
 
                         <div class="tools">
 
@@ -178,7 +178,7 @@
                         <div class="video_ext">
                             
                             <div class="cont_play">
-                                <a href="http://www.youtube.com/watch?v=a5iDPFbIRdo" target="_blank"><img src="img/play_resp.png" alt=""/></a>
+                                <a href="http://www.youtube.com/watch?v=JPDGv66V8I4" target="_blank"><img src="img/play_resp.png" alt=""/></a>
                             </div>
 
                         </div>
