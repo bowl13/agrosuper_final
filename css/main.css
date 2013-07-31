@@ -439,14 +439,25 @@ section.cont_all_map .cont_leyenda .paises_map ul li:hover{
 		font-size: 12px;
 		max-width: 45%;
 	}
-	.cin_01{
-		background-image: url('../img/cinema_japan_low.gif');
+	.cin_01, .cin_02, .cin_03, .cin_04{
 		-webkit-background-size: cover;
 		background-size: cover;
 		background-position: center;
 		width:100%;
 		min-width: 320px;
 		height:570px !important;
+	}
+	.cin_01{
+		background-image: url('../img/cinema_japan_low.gif');
+	}
+	.cin_02{
+		background-image: url('../img/pollo_cinema.gif');
+	}
+	.cin_03{
+		background-image: url('../img/korea_cinema.gif');
+	}
+	.cin_04{
+		background-image: url('../img/pata_3_cinema.gif');
 	}
 	#mar_cri2, #mar_and2, #mar_cha2, #mar_san2, #mar_kin2, #mar_sop2, #mar_ssa2, #mar_spo2, #mar_sce2{
 		width:100px;
@@ -457,7 +468,7 @@ section.cont_all_map .cont_leyenda .paises_map ul li:hover{
 		padding-top:150px;
 		width:45%;
 	}
-	.cin_01{
+	.cin_01, .cin_02, .cin_03, .cin_04{
 		max-height:370px;
 		background-position: center right;
 	}
@@ -470,7 +481,7 @@ section.cont_all_map .cont_leyenda .paises_map ul li:hover{
 		width:35%;
 		padding-top: 25%;
 	}
-	.cin_01{
+	.cin_01, .cin_02, .cin_03, .cin_04{
 		max-height:320px;
 	}
 }

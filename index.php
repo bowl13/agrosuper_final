@@ -39,6 +39,8 @@
         <link rel="stylesheet" href="css/mediaelementplayer.css">
         <link rel="stylesheet" href="css/jquery.sidr.light.css">
 
+        <link rel="icon" href="favicon.ico">
+
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     
         <?php
@@ -193,13 +195,13 @@
 
                         <div class="active item">
                             
-                            <p>somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
+                            <p>01somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
 
                             <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
 
-                                <source src="img/parr.mp4" type="video/mp4">
-                                <source src="img/parr.webm" type="video/webm">
-                                <source src="img/parr.ogv" type="video/ogg">
+                                <source src="img/korea_cinema.mp4" type="video/mp4">
+                                <source src="img/korea_cinema.webm" type="video/webm">
+                                <source src="img/korea_cinema.ogv" type="video/ogg">
 
                             </video>
 
@@ -211,34 +213,53 @@
 
                         <div class="item">
                             
-                            <p>somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
+                            <p>02somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
 
                             <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
 
-                                <source src="img/pai.mp4" type="video/mp4">
-                                <source src="img/pai.webm" type="video/webm">
-                                <source src="img/pai.ogv" type="video/ogg">
+                                <source src="img/pata_3_cinema.mp4" type="video/mp4">
+                                <source src="img/pata_3_cinema.webm" type="video/webm">
+                                <source src="img/pata_3_cinema.ogv" type="video/ogg">
 
                             </video>
 
-                            <div class="hidden-desktop hidden-tablet view-cinema cin_01">
+                            <div class="hidden-desktop hidden-tablet view-cinema cin_02">
 
                             </div>
 
                         </div>
                         <div class="item">
                             
-                            <p>somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
+                            <p>03somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
 
                             <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
 
-                                <source src="img/parr.mp4" type="video/mp4">
-                                <source src="img/parr.webm" type="video/webm">
-                                <source src="img/parr.ogv" type="video/ogg">
+                                <source src="img/pollo_cinema.mp4" type="video/mp4">
+                                <source src="img/pollo_cinema.webm" type="video/webm">
+                                <source src="img/pollo_cinema.ogv" type="video/ogg">
 
                             </video>
 
-                            <div class="hidden-desktop hidden-tablet view-cinema cin_01">
+                            <div class="hidden-desktop hidden-tablet view-cinema cin_03">
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+                            
+                            <p>04somos una marca chilena de proteína presente en<br/> <span>más de 65 países</span>.</p>
+
+                            <video class="hidden-phone" autoplay style="width:100% !important;height:auto;" loop="true" mute>
+
+                                <source src="img/puerto_cinema.mp4" type="video/mp4">
+                                <source src="img/puerto_cinema.webm" type="video/webm">
+                                <source src="img/puerto_cinema.ogv" type="video/ogg">
+
+                            </video>
+
+                            <div class="hidden-desktop hidden-tablet view-cinema cin_04">
 
 
                             </div>
