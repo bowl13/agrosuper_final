@@ -147,9 +147,21 @@
 
                             </div>
 
-                            <div class="tw pull-right" style="margin-right:10px;border-right:2px solid #3598dc;padding-right:10px;"><img src="img/icon_tw.gif" alt=""></div>
-                            <div class="fb pull-right" style="margin-right:10px;"><img src="img/icon_fb.gif" alt=""></div>
+                            <!--div class="tw pull-right" style="margin-right:10px;border-right:2px solid #3598dc;padding-right:10px;"><img src="img/icon_tw.gif" alt=""></div>
+                            <div class="fb pull-right" style="margin-right:10px;"><img src="img/icon_fb.gif" alt=""></div-->
+                            
+                            <div class="tw pull-right" style="padding-top:5px;margin-right:10px;border-right:2px solid #3598dc;padding-right:10px;">
 
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true" data-count="none" data-text="Hola mundo" data-lang="es">Twitea</a>
+                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                            
+                            </div>                      
+                            <div class="fb pull-right" style="padding-top:3px;margin-right:10px;width:80px;overflow:hidden;">
+                               
+                                <div class="fb-like" data-href="http://www.bowl.cl" data-send="false" data-width="450" data-show-faces="false"></div>
+                            
+                            </div>
+                            
                             <div class="clearfix"></div>
                         </div>
 
@@ -407,13 +419,7 @@
             
             <div class="row-fluid">
                 
-                <div class="like_fb pull-left" style="margin-left:10px;overflow:hidden;width:80px">
-                                        
-                    <div class="fb-like" data-href="http://www.bowl.cl" data-send="false" data-width="450" data-show-faces="false"></div>
-                    
-                </div>
-
-                <div class="pull-left" style="border-left:1px solid #fff;margin-left:5px;padding-left:10px;">
+                <div class="pull-left" style="margin-left:5px;padding-left:10px;">
                     © 2013 Agrosuper. All rights reserved.
                 </div>
 
